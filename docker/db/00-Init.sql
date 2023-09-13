@@ -1,0 +1,9 @@
+PRINT 'BEGIN - DATABASE CREATION'
+
+PRINT 'CREATING DATABASE'
+
+:r 01-CreateDatabase.sql
+:r 02-CreateTable.sql
+:r 03-SeedCaracter.sql
+
+PRINT 'END - DATABASE CREATION'

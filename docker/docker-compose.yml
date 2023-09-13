@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  db:
+    build: ./db
+    container_name: minimal_api_vs_controller
+    ports:
+      - "14330:1433"
